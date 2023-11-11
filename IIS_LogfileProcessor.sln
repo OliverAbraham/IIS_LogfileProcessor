@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.29025.244
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34112.27
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IIS_LogfileProcessor_Core20", "IIS_LogfileProcessor\IIS_LogfileProcessor_Core20.csproj", "{B9637A0A-1A94-47C5-83E0-21BFAF45680B}"
 EndProject
@@ -26,6 +26,14 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IIS_LogfileProcessor_Fw472", "IIS_LogfileProcessor_Fw472\IIS_LogfileProcessor_Fw472.csproj", "{64AF5672-6683-48FC-8D20-544911030B04}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IIS_LogfileReader_Fw472", "IIS_LogfileReader_Fw472\IIS_LogfileReader_Fw472.csproj", "{8185A3FE-B999-4A45-8F5C-9B10888F2E10}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 Solution items", "4 Solution items", "{61652AC9-88AB-4313-BB7A-9B34787BC54F}"
+	ProjectSection(SolutionItems) = preProject
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		LICENSE.txt = LICENSE.txt
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -86,47 +94,5 @@ Global
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9DF18591-8D8A-4E89-8128-D078A9F30E20}
-	EndGlobalSection
-	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 10
-		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccTeamFoundationServer = https://oliverabraham.visualstudio.com/
-		SccLocalPath0 = .
-		SccProjectUniqueName1 = IISLogfileReaderTests\\IISLogfileReaderTests.csproj
-		SccProjectTopLevelParentUniqueName1 = IIS_LogfileProcessor.sln
-		SccProjectName1 = IISLogfileReaderTests
-		SccLocalPath1 = IISLogfileReaderTests
-		SccProjectUniqueName2 = IIS_LogfileReader\\IIS_LogfileReader.csproj
-		SccProjectTopLevelParentUniqueName2 = IIS_LogfileProcessor.sln
-		SccProjectName2 = IIS_LogfileReader
-		SccLocalPath2 = IIS_LogfileReader
-		SccProjectUniqueName3 = IIS_RuleCreator\\IIS_RuleCreator.csproj
-		SccProjectTopLevelParentUniqueName3 = IIS_LogfileProcessor.sln
-		SccProjectName3 = IIS_RuleCreator
-		SccLocalPath3 = IIS_RuleCreator
-		SccProjectUniqueName4 = CreateRuleTester\\CreateRuleTester.csproj
-		SccProjectTopLevelParentUniqueName4 = IIS_LogfileProcessor.sln
-		SccProjectName4 = CreateRuleTester
-		SccLocalPath4 = CreateRuleTester
-		SccProjectUniqueName5 = IIS_RuleCreator_Fw472\\IIS_RuleCreator_Fw472.csproj
-		SccProjectTopLevelParentUniqueName5 = IIS_LogfileProcessor.sln
-		SccProjectName5 = IIS_RuleCreator_Fw472
-		SccLocalPath5 = IIS_RuleCreator_Fw472
-		SccProjectUniqueName6 = CreateRuleTester_Fw472\\CreateRuleTester_Fw472.csproj
-		SccProjectTopLevelParentUniqueName6 = IIS_LogfileProcessor.sln
-		SccProjectName6 = CreateRuleTester_Fw472
-		SccLocalPath6 = CreateRuleTester_Fw472
-		SccProjectUniqueName7 = IIS_LogfileProcessor_Fw472\\IIS_LogfileProcessor_Fw472.csproj
-		SccProjectTopLevelParentUniqueName7 = IIS_LogfileProcessor.sln
-		SccProjectName7 = IIS_LogfileProcessor_Fw472
-		SccLocalPath7 = IIS_LogfileProcessor_Fw472
-		SccProjectUniqueName8 = IIS_LogfileReader_Fw472\\IIS_LogfileReader_Fw472.csproj
-		SccProjectTopLevelParentUniqueName8 = IIS_LogfileProcessor.sln
-		SccProjectName8 = IIS_LogfileReader_Fw472
-		SccLocalPath8 = IIS_LogfileReader_Fw472
-		SccProjectUniqueName9 = IIS_LogfileProcessor\\IIS_LogfileProcessor_Core20.csproj
-		SccProjectTopLevelParentUniqueName9 = IIS_LogfileProcessor.sln
-		SccProjectName9 = IIS_LogfileProcessor
-		SccLocalPath9 = IIS_LogfileProcessor
 	EndGlobalSection
 EndGlobal
